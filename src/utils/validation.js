@@ -10,5 +10,5 @@ export const validateEmail = (email) => {
 // Checks if the name is not empty or just whitespace by trimming leading/trailing spaces
 // Returns true if the name is valid (not empty), otherwise returns false
 export const validateName = (name) => {
-  return name.trim().length > 0; // trim() removes spaces, and length > 0 ensures the name is not empty
+  return name.trim().length > 0; // trim()  removes spaces, and length > 0 ensures the name is not empty
 };
