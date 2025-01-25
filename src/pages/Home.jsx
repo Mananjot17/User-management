@@ -77,7 +77,7 @@ const Home = () => {
           Prev
         </button>
 
-        {/* Pagination Page Number Buttons */}
+        {/* Pagination Page Number Buttons  */}
         {Array.from({ length: totalPages }, (_, index) => (
           <button
             key={index + 1} // Generate a button for each page number
