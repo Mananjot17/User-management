@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// Base URL for the JSONPlaceholder API
+// URL for the JSONPlaceholder API
 const BASE_URL = "https://jsonplaceholder.typicode.com/users";
 
 // Function to fetch all users from the server
