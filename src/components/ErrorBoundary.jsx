@@ -14,7 +14,7 @@ class ErrorBoundary extends Component {
     return { hasError: true };
   }
 
-  // This lifecycle method is called after an error is thrown.
+  // This lifecycle method is  called after an error is thrown.
   componentDidCatch(error, errorInfo) {
     // Log the error and error information for debugging purposes.
     console.error("ErrorBoundary caught an error", error, errorInfo);
