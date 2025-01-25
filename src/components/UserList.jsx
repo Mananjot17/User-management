@@ -27,7 +27,7 @@ const UserList = ({ users, onDelete }) => {
           </tr>
         </thead>
         <tbody>
-          {/* Loop through the users and display their details in the table rows */}
+          {/* Loop through the users and display their details in the table rows  */}
           {users.map((user) => (
             <tr
               key={user.id} // Each row is uniquely identified by the user's ID
