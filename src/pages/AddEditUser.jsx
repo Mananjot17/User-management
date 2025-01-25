@@ -12,7 +12,7 @@ const AddEditUser = () => {
     department: "",
   });
 
-  const [errors, setErrors] = useState({}); // To store error messages
+  const [errors, setErrors] = useState({}); // To  store error messages
 
   const { id } = useParams();
   const navigate = useNavigate();
