@@ -13,7 +13,7 @@ const UserForm = ({ formData, setFormData, onSubmit, errors }) => {
         <input
           type="text"
           className="shadow-sm appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-teal-500"
-          value={formData.firstName} // Binds first name from formData to input value
+          value={formData.firstName} // Binds first name from  formData to input value
           onChange={
             (e) => setFormData({ ...formData, firstName: e.target.value }) // Updates formData on change
           }
